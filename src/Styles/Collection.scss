@@ -1,0 +1,178 @@
+.collection-page {
+  .section-title-wrapper {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../Assets/collection-tile.jpg");
+    background-size: cover;
+    background-position: bottom center;
+    h1 {
+      display: block;
+      width: fit-content;
+      color: white;
+      font-family: "Kanit", sans-serif;
+      font-size: 3em;
+      font-style: normal;
+      font-weight: 400;
+      letter-spacing: 7px;
+      text-transform: uppercase;
+      margin: 0;
+    }
+    hr {
+      background-color: #c7a082;
+      margin: 0;
+      border: none;
+      height: 3px;
+      width: 63px;
+    }
+  }
+  .section-container {
+    margin: 0 auto;
+    padding: 2em 1em;
+    width: fit-content;
+    .select-wrapper {
+      margin: 0 0 2em 0;
+      width: 100%;
+      p {
+        font-family: Kanit, sans-serif;
+        font-size: 1.6em;
+        letter-spacing: 1px;
+        font-weight: 400;
+        font-style: normal;
+        color: #242323;
+        margin-bottom: 0;
+        padding: 0;
+      }
+      select,
+      option {
+        cursor: pointer;
+        font-family: Kanit;
+        font-size: 1.1em;
+      }
+      select:focus {
+        outline: none;
+      }
+    }
+  }
+  .container {
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .wrapper {
+      margin: 0 0.75em 1em;
+      cursor: pointer;
+      .image-wrapper {
+        position: relative;
+        img {
+          width: 18em;
+          transition-duration: 0.2s;
+        }
+        .view-watch {
+          position: absolute;
+          background-color: #c7a082;
+          color: #ffffff;
+          font-size: 1em;
+          text-transform: uppercase;
+          font-family: Kanit;
+          font-style: normal;
+          font-weight: 400;
+          letter-spacing: 2.2px;
+          width: 12em;
+          height: 4em;
+          opacity: 0;
+          padding: 0 1em;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+          border: none;
+          cursor: pointer;
+          transition-duration: 0.2s;
+        }
+        .view-watch:hover {
+          background-color: #242323;
+        }
+      }
+      .name {
+        font-family: Kanit, sans-serif;
+        font-size: 1.2em;
+        letter-spacing: 1.8px;
+        font-weight: 400;
+        font-style: normal;
+        text-transform: uppercase;
+        color: #242323;
+        margin-bottom: 0;
+        text-align: center;
+        padding: 0;
+      }
+      .price {
+        color: #383838 !important;
+        font-size: 15px;
+        text-transform: none;
+        font-family: Lato, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: 0px;
+        text-align: center;
+        margin: 0;
+      }
+    }
+    .wrapper:hover {
+      .image-wrapper {
+        img {
+          filter: brightness(90%);
+        }
+        .view-watch {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .collection-page {
+    .section-title-wrapper {
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-image: url("../Assets/collection-tile.jpg");
+      h1 {
+        display: block;
+        width: fit-content;
+        color: white;
+        font-family: "Kanit", sans-serif;
+        font-size: 3em;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: 7px;
+        text-transform: uppercase;
+        margin: 0;
+      }
+      hr {
+        background-color: #c7a082;
+        margin: 0;
+        border: none;
+        height: 3px;
+        width: 63px;
+      }
+    }
+    .section-container {
+      margin: 0 auto;
+      padding: 1em;
+      width: fit-content;
+      .select-wrapper {
+        p {
+          margin: 0;
+        }
+      }
+    }
+  }
+}

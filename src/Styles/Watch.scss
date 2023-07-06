@@ -1,0 +1,53 @@
+.watch-page{
+    padding: 10em 0;
+    display: flex;
+    .carousel-wrapper{
+        font-size: 12px;
+    }
+    .watch-container{
+        padding: 0 2em;
+        h1{
+            margin: 0;
+            font-family: Kanit, sans-serif;
+            font-size: 2.5em;
+            letter-spacing: 5.8px;
+            font-weight: 400;
+            font-style: normal;
+            text-transform: uppercase;
+            color: #242323;
+        }
+        .price, .description{
+            color: #909090;
+            font-size: 1.2em;
+            text-transform: none;
+            font-family: Lato, sans-serif;
+            font-style: normal;
+            font-weight: 300;
+            letter-spacing: 0px;
+        }
+        .price{
+            margin: 0;
+        }
+        .description{
+            margin: .5em 0;
+        }
+        h2{
+            font-family: Kanit, sans-serif;
+            text-transform: uppercase;
+            font-weight: 400;
+            font-size: 1.3em;
+            margin: 0;
+            color: #242323;
+        }
+        .material{
+            span{
+                text-transform: capitalize;
+                color: #242323;
+                font-weight: 400;
+                    font-family: Kanit, sans-serif;
+            }
+            color: #909090;
+            margin: 0;
+        }
+    }
+}

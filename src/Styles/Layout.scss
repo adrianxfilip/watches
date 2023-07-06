@@ -1,0 +1,108 @@
+header{
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    box-sizing: border-box;
+    padding: 0em 2em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 20;
+    .active{
+        color: #c7a082;
+    }
+    img{
+        display: block;
+        align-self: center;
+        position: relative;
+        z-index: 20;
+    }
+    ul{
+        list-style-type: none;
+        align-self: center;
+        margin:0 0 0 auto;
+        padding: 0;
+        li{
+            display: inline;
+            margin: 0 40px 0 0;
+            a{
+                text-decoration: none;
+                color: white;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                text-transform: uppercase;
+                letter-spacing: 3.7px;
+            }
+        }
+    }
+    .cart-icon{
+        color: white;
+        text-decoration: none;
+        margin: 0 0 -5px 0;
+        align-self: center;
+        position: relative;
+        z-index: 20;
+        .fi{
+            font-size: 20px;
+        }
+    }
+    .mobile-menu-container{
+        display: none;
+        .menu-button{
+            cursor: pointer;
+        }
+    }
+}
+@media only screen and (max-width: 1100px) {
+    header{
+        padding: .8em 0;
+        justify-content: space-between;
+        z-index: 20;
+        .mobile-menu-container{
+            position: relative;
+            align-self: flex-start;
+            display: block;
+            .mobile-menu-wrapper{
+                width: 100vw;
+                height: 100vh;
+                background-color: #0a0a0a;
+                position: fixed;
+                display: flex;
+                justify-content: center;
+                padding: 10em 0 0 0;
+            }
+            ul{
+                display: block !important;
+                margin: 0;
+                a{
+                    font-size: 1em;
+                }
+                li{
+                    display: block;
+                    margin: 0 auto .5em;
+                    text-align: center;
+                }
+            }
+            .menu-button{
+                background-color: transparent;
+                border: none;
+                font-size: .7em;
+                position: absolute;
+                top: 0em;
+                z-index: 20;
+            }
+        }    
+        ul{
+            display: none;
+        }
+        .cart-icon{
+            position : relative;
+            .fi{
+                position: absolute;
+                top: -.5em;
+                left: -2em;
+            }
+        }
+    }
+}
