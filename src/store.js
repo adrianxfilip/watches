@@ -23,12 +23,7 @@ const rootReducer = (state = initialState, action) => {
         cart : {
           ...state.cart,
           [action.payload.id] : {
-            id : action.payload.id,
-            tickets : action.payload.tickets ,
-            ppt : action.payload.ppt,
-            image : action.payload.image,
-            name : action.payload.name,
-            drawDate : action.payload.drawDate
+            id : action.payload.id
           }
         }
       }

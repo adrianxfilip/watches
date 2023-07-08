@@ -49,12 +49,12 @@ export default function ImageCarousel(props) {
           style={{ backgroundImage: `url('${selectedImage}')` }}
         />
         <div className="carousel">
-          <button
+          {/*          <button
             className="carousel-button carouse-button-left"
             onClick={handleLeftClick}
           >
             <i className="fi fi-rr-arrow-small-left"></i>
-          </button>
+          </button>*/}
           <div className="carousel-images">
             {images.map((image, index) => {
               return (
@@ -72,12 +72,13 @@ export default function ImageCarousel(props) {
               );
             })}
           </div>
-          <button
+          {/*          <button
             className="carousel-button carousel-button-right"
             onClick={handleRightClick}
           >
             <i className="fi fi-rr-arrow-small-right"></i>
           </button>
+          */}
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
-const addToCart = (id, tickets, ppt, image, name, drawDate) => ({
+const addToCart = (id) => ({
   type : "ADD_TO_CART",
-  payload : {id : id, tickets : tickets, ppt: ppt, image:image, name:name, drawDate : drawDate}
+  payload : {id : id}
 })
 
 const removeFromCart = (id) => ({
@@ -12,4 +12,4 @@ const clearCart = () => ({
   type : "CLEAR_CART"
 })
 
-export {logIn, loadContestsData, addToCart, clearCart, removeFromCart, loadUserData}
+export {addToCart, clearCart, removeFromCart}
