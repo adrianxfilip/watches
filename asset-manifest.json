@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/watches/static/css/main.ff1a7f70.css",
+    "main.js": "/watches/static/js/main.b53ec435.js",
+    "static/media/home-img.png": "/watches/static/media/home-img.5b069877a682075c00ee.png",
+    "static/media/watch2.png": "/watches/static/media/watch2.90a325ceab073f7ef7b2.png",
+    "static/media/home-bg.jpg": "/watches/static/media/home-bg.92ca589303ae06008b77.jpg",
+    "static/media/collection-tile.jpg": "/watches/static/media/collection-tile.c7907554ded9035c473b.jpg",
+    "static/media/cartier.png": "/watches/static/media/cartier.10d250f98c2ce9687ae2.png",
+    "static/media/tag-heuer.png": "/watches/static/media/tag-heuer.4dc8bb666a9de7308ae9.png",
+    "static/media/rolex.png": "/watches/static/media/rolex.d8dbcc12b2b51a5e354d.png",
+    "static/media/blue-watch.jpg": "/watches/static/media/blue-watch.6807956261388424b5c3.jpg",
+    "static/media/breitling.png": "/watches/static/media/breitling.ae629369d6afc65f7c30.png",
+    "static/media/leather-strap-watch.jpg": "/watches/static/media/leather-strap-watch.649d31eb80a5e4dc6df2.jpg",
+    "static/media/silver-watch.jpg": "/watches/static/media/silver-watch.932e3c14b1ebb6c53bf6.jpg",
+    "index.html": "/watches/index.html",
+    "main.ff1a7f70.css.map": "/watches/static/css/main.ff1a7f70.css.map",
+    "main.b53ec435.js.map": "/watches/static/js/main.b53ec435.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff1a7f70.css",
+    "static/js/main.b53ec435.js"
+  ]
+}
